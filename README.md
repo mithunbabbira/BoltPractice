@@ -1,4 +1,4 @@
-# BoltPractice
+# DropShipping
 e-com
 
 The GIF is not updated
