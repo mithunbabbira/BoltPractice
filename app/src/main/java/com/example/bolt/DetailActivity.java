@@ -72,7 +72,7 @@ public class DetailActivity extends AppCompatActivity {
         if(feature!=null){
             Glide.with(getApplicationContext()).load(feature.getImage_url()).into(mImage);
             mItemName.setText(feature.getName());
-            mPrice.setText(feature.getPrice()+" $");
+            mPrice.setText(feature.getPrice()+" ₹");
             mItemRating.setText(feature.getRating()+"");
             if(feature.getRating()>3){
                 mItemRatDesc.setText("very good");
@@ -86,7 +86,7 @@ public class DetailActivity extends AppCompatActivity {
         if(bestSell!=null){
             Glide.with(getApplicationContext()).load(bestSell.getImg_url()).into(mImage);
             mItemName.setText(bestSell.getName());
-            mPrice.setText(bestSell.getPrice()+" $");
+            mPrice.setText(bestSell.getPrice()+" ₹");
             mItemRating.setText(bestSell.getRating()+"");
             if(bestSell.getRating()>3){
                 mItemRatDesc.setText("very good");
@@ -102,7 +102,7 @@ public class DetailActivity extends AppCompatActivity {
         if(items!=null){
             Glide.with(getApplicationContext()).load(items.getImg_url()).into(mImage);
             mItemName.setText(items.getName());
-            mPrice.setText(items.getPrice()+" $");
+            mPrice.setText(items.getPrice()+" ₹");
             mItemRating.setText(items.getRating()+"");
             if(items.getRating()>3){
                 mItemRatDesc.setText("very good");

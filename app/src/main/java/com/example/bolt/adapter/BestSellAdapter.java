@@ -36,7 +36,7 @@ public class BestSellAdapter extends RecyclerView.Adapter<BestSellAdapter.ViewHo
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
         holder.mName.setText(mBestSellList.get(position).getName());
-        holder.mPrice.setText(mBestSellList.get(position).getPrice()+" $");
+        holder.mPrice.setText(mBestSellList.get(position).getPrice()+" ₹");
         Glide.with(context).load(mBestSellList.get(position).getImg_url()).into(holder.mImage);
 
 

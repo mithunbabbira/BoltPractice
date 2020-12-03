@@ -38,7 +38,7 @@ public class FeatureAdapter extends RecyclerView.Adapter<FeatureAdapter.ViewHold
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
-        holder.mFetCost.setText(mFeatureList.get(position).getPrice()+" $");
+        holder.mFetCost.setText(mFeatureList.get(position).getPrice()+" ₹");
         holder.mFetName.setText(mFeatureList.get(position).getName());
         Glide.with(context).load(mFeatureList.get(position).getImage_url()).into(holder.mFetImage);
         holder.mFetImage.setOnClickListener(new View.OnClickListener() {
