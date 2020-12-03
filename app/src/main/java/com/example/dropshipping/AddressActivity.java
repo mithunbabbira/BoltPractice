@@ -1,4 +1,4 @@
-package com.example.bolt;
+package com.example.dropshipping;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,12 +10,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.bolt.adapter.AddressAdapter;
-import com.example.bolt.domain.Address;
-import com.example.bolt.domain.BestSell;
-import com.example.bolt.domain.Category;
-import com.example.bolt.domain.Feature;
-import com.example.bolt.domain.Items;
+import com.example.dropshipping.adapter.AddressAdapter;
+import com.example.dropshipping.domain.Address;
+import com.example.dropshipping.domain.BestSell;
+import com.example.dropshipping.domain.Feature;
+import com.example.dropshipping.domain.Items;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;

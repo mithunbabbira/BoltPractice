@@ -1,4 +1,4 @@
-package com.example.bolt;
+package com.example.dropshipping;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -12,24 +12,20 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import com.example.bolt.adapter.ItemsRecyclerAdapter;
-import com.example.bolt.domain.Items;
-import com.example.bolt.fragment.HomeFragment;
+import com.example.dropshipping.adapter.ItemsRecyclerAdapter;
+import com.example.dropshipping.domain.Items;
+import com.example.dropshipping.fragment.HomeFragment;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
-
-import org.w3c.dom.Document;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.example.bolt.domain;
+package com.example.dropshipping.domain;
 
 public class Category {
     String type;

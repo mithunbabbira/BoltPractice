@@ -1,4 +1,4 @@
-package com.example.bolt.domain;
+package com.example.dropshipping.domain;
 
 import java.io.Serializable;
 

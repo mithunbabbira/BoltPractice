@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bolt">
+    package="com.example.dropshipping">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
@@ -11,33 +11,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AllItemsActivity"></activity>
-        <activity android:name=".PaymentActivity" />
+        <activity android:name="com.example.dropshipping.AllItemsActivity"></activity>
+        <activity android:name="com.example.dropshipping.PaymentActivity" />
         <activity
-            android:name=".AddAddressActivity"
-            android:parentActivityName=".AddressActivity" />
+            android:name="com.example.dropshipping.AddAddressActivity"
+            android:parentActivityName="com.example.dropshipping.AddressActivity" />
         <activity
-            android:name=".AddressActivity"
-            android:parentActivityName=".DetailActivity" />
+            android:name="com.example.dropshipping.AddressActivity"
+            android:parentActivityName="com.example.dropshipping.DetailActivity" />
         <activity
-            android:name=".DetailActivity"
-            android:parentActivityName=".HomeActivity" />
-        <activity android:name=".ItemActivity" />
-        <activity android:name=".HomeActivity" />
+            android:name="com.example.dropshipping.DetailActivity"
+            android:parentActivityName="com.example.dropshipping.HomeActivity" />
+        <activity android:name="com.example.dropshipping.ItemActivity" />
+        <activity android:name="com.example.dropshipping.HomeActivity" />
         <activity
-            android:name=".RegisterActivity"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.example.dropshipping.RegisterActivity"
+            android:parentActivityName="com.example.dropshipping.MainActivity" />
         <activity
-            android:name=".LoginActivity"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".SplashScreenActivity">
+            android:name="com.example.dropshipping.LoginActivity"
+            android:parentActivityName="com.example.dropshipping.MainActivity" />
+        <activity android:name="com.example.dropshipping.SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.example.dropshipping.MainActivity" />
 
         <meta-data
             android:name="com.razorpay.ApiKey"

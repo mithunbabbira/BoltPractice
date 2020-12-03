@@ -1,4 +1,4 @@
-package com.example.bolt.adapter;
+package com.example.dropshipping.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,10 +12,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.bolt.DetailActivity;
-import com.example.bolt.HomeActivity;
-import com.example.bolt.R;
-import com.example.bolt.domain.Items;
+import com.example.dropshipping.DetailActivity;
+import com.example.dropshipping.HomeActivity;
+import com.example.dropshipping.R;
+import com.example.dropshipping.domain.Items;
 
 import java.util.List;
 

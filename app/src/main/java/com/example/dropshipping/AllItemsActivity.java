@@ -1,4 +1,4 @@
-package com.example.bolt;
+package com.example.dropshipping;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,8 +11,8 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.bolt.adapter.ItemsRecyclerAdapter;
-import com.example.bolt.domain.Items;
+import com.example.dropshipping.adapter.ItemsRecyclerAdapter;
+import com.example.dropshipping.domain.Items;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.DocumentSnapshot;

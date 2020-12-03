@@ -1,15 +1,16 @@
-package com.example.bolt.domain;
+package com.example.dropshipping.domain;
 
 import java.io.Serializable;
 
-public class Feature implements Serializable {
+public class Items implements Serializable  {
     String description;
-    String image_url;
+    String img_url;
     String name;
+    String type;
     double price;
     int rating;
 
-    public Feature() {
+    public Items() {
     }
 
     public String getDescription() {
@@ -20,12 +21,12 @@ public class Feature implements Serializable {
         this.description = description;
     }
 
-    public String getImage_url() {
-        return image_url;
+    public String getImg_url() {
+        return img_url;
     }
 
-    public void setImage_url(String image_url) {
-        this.image_url = image_url;
+    public void setImg_url(String img_url) {
+        this.img_url = img_url;
     }
 
     public String getName() {
@@ -34,6 +35,14 @@ public class Feature implements Serializable {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 
     public double getPrice() {

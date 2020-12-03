@@ -1,4 +1,4 @@
-package com.example.bolt.fragment;
+package com.example.dropshipping.fragment;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,21 +14,20 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.bolt.AllItemsActivity;
-import com.example.bolt.R;
-import com.example.bolt.adapter.BestSellAdapter;
-import com.example.bolt.adapter.CategoryAdapter;
-import com.example.bolt.adapter.FeatureAdapter;
-import com.example.bolt.domain.BestSell;
-import com.example.bolt.domain.Category;
-import com.example.bolt.domain.Feature;
+import com.example.dropshipping.AllItemsActivity;
+import com.example.dropshipping.R;
+import com.example.dropshipping.adapter.BestSellAdapter;
+import com.example.dropshipping.adapter.CategoryAdapter;
+import com.example.dropshipping.adapter.FeatureAdapter;
+import com.example.dropshipping.domain.BestSell;
+import com.example.dropshipping.domain.Category;
+import com.example.dropshipping.domain.Feature;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 

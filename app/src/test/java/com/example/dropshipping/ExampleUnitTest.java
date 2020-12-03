@@ -1,4 +1,4 @@
-package com.example.bolt;
+package com.example.dropshipping;
 
 import org.junit.Test;
 
