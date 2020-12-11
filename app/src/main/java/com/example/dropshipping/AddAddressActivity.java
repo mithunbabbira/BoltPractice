@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentReference;
@@ -94,6 +95,11 @@ public class AddAddressActivity extends AppCompatActivity {
                             Toast.makeText(AddAddressActivity.this, "Address added", Toast.LENGTH_SHORT).show();
                             finish();
                         }
+                    }
+                }).addOnFailureListener(new OnFailureListener() {
+                    @Override
+                    public void onFailure(@NonNull Exception e) {
+                        Toast.makeText(AddAddressActivity.this, "Failed to upload the address", Toast.LENGTH_SHORT).show();
                     }
                 });
             }
